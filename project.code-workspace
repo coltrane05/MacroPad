@@ -1,0 +1,16 @@
+{
+    "folders": [
+        {
+            "name": "Pico Firmware",
+            "path": "firmware"
+        },
+        {
+            "name": "Project Root",
+            "path": "."
+        }
+    ],
+    "settings": {
+        // This stops the root workspace from trying to build CMake
+        "cmake.sourceDirectory": "${workspaceFolder:Pico Firmware}"
+    }
+}
